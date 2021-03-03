@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ 
+ <p>2-1HTML文件的根元素－<html> 元素</p>
+
+ <p>2-2HTML文件的標頭－<head> 元素 </p>
+  <head>
+    <meta charset="utf-8">
+	<title>HELLO</title>
+  </head>	
+
+ <p>2-3TML文件的主體－<body>元素</p>
+ <div id=navigtion>
+ 
+        <ul>
+          <li><a href="article.html">article</a>
+          <li><a href="aside">aside</a>
+          <li><a href="body.html">body</a>
+          <li><a href="body2.html">body2</a>
+		  <li><a href="comment.html">comment</a>
+          <li><a href="div.html">div</a>
+		  <li><a href="heading.html">heading</a>
+          <li><a href="main.html">main</a>
+		  <li><a href="nav.html">nav</a>
+          <li><a href="p.html">p</a>
+		  <li><a href="section.html">section</a>
+          <li><a href="style.html">style</a>
+        </ul>
+		</div>
+ <p>2-4HTML5新增的結構元素</p>

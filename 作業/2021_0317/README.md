@@ -25,6 +25,8 @@
 </body>
 </html>
 ```
+
+```
 選擇題
 ( B )1.	下列何者為HTML文件的根元素？
 	A. <meta>  B. <html>	C. <head>	D. <body>
@@ -46,6 +48,7 @@
 	A. <h1> 	B. <h2>	  C. <p>	D. <pre>
 (  )10.下列哪個元素可以用來設定目前文件與其它資源之間的關聯？
 	A. <base>	B. <meta>	C. <head>	D. <link>
+```
 ```
 ( J )1. 標題5                               	A.<blockquote>
 ( S )2. 段落                                	B.<sup>

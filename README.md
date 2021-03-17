@@ -17,6 +17,8 @@ https://www.w3schools.com/js/DEFAULT.asp
 ```
 # 參考書資料
 ```
+HTML5、CSS3、JavaScript、jQuery、jQuery UI、Ajax、RWD 網頁程式設計, 7/e
+陳惠貞   碁峰資訊   2020-10-21
 http://books.gotop.com.tw/download/AEL024100
 
 ```

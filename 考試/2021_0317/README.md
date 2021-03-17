@@ -1,27 +1,45 @@
 ```
 <!DOCTYPE html>
+<html>
 <head>
-<title></title>
-</head>
-<body>
-<h1>標題欄顯示當前日期</h1>
-<script type="text/javascript">
-    //定義月份的描述
-    var isnMonth = new Array("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月");
-    //定義星期的描述
-    var isnDay = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六","星期日");
-
-    today = new Date ();        //取得當前日期
-    Year=today.getFullYear();	//取得日期的年份部分(四位年份2018)
-    Date=today.getDate();	  //取得星期部分
-    //定義需要顯示的字串
-    titlestr="今天是: "+Year+"年"+isnMonth[today.getMonth()]+Date+"日"+isnDay[today.getDay()];
-    //檢測瀏覽器相容性，如果是IE則可以顯示
-    if (document.all)
-        //改變標題，顯示日期。
-        document.all
-        document.title=titlestr;
+<meta charset="utf-8">
+<title> 顯示當前時間 </title>
+<script language="JavaScript">
+function startTime()  
+{  
+var today=new Date(); 
+var yyyy = today.getFullYear();   
+var MM = today.getMonth()+1; 
+var dd = today.getDate();   
+var hh=today.getHours();
+var mm=today.getMinutes(); 
+var ss=today.getSeconds(); 
+MM=checkTime(MM);
+dd=checkTime(dd);
+mm=checkTime(mm);  
+ss=checkTime(ss);   
+var day; 
+if(today.getDay()==0)   day   =   "星期日 "
+if(today.getDay()==1)   day   =   "星期一 "
+if(today.getDay()==2)   day   =   "星期二 "
+if(today.getDay()==3)   day   =   "星期三 "
+if(today.getDay()==4)   day   =   "星期四 "
+if(today.getDay()==5)   day   =   "星期五 "
+if(today.getDay()==6)   day   =   "星期六 "
+document.getElementById('nowDateTimeSpan').innerHTML=yyyy+"-"+MM +"-"+ dd +" " + hh+":"+mm+":"+ss+"   " + day;  
+setTimeout('startTime()',1000);
+}  
+function checkTime(i)  
+{  
+if (i<10){
+i="0" + i;
+}  
+return i;
+} 
 </script>
+</head>
+<body onload="startTime()">
+當前時間：<font color="#00000"><span id="nowDateTimeSpan"></span></font>
 </body>
 </html>
 ```

@@ -61,9 +61,26 @@ return i;
 	A. <footer>  B. <title>	  C. <time>	D. <address>
 (  )7.	下列哪個HTML5新增的元素最適合用來標示獨立的內容，例如部落格的一篇文章？
 	A. <article>	B. <section>	C. <aside>	D. <nav>
-(  )8.	下列哪個HTML5新增的元素最適合用來放置網頁的擁有者資訊、建議瀏覽器解析度、版權聲明、隱私權政策等內容？
+( B )8.	下列哪個HTML5新增的元素最適合用來放置網頁的擁有者資訊、建議瀏覽器解析度、版權聲明、隱私權政策等內容？
 	A. <header>	B. <footer>	C. <aside>	D. <address>
-(  )9.	下列哪個元素預設的字體最大？
+	
+	b
+	<footer> 標籤 (tag) 用來定義一個頁尾或結尾區塊，常見的 footer 是網頁最下面的頁尾區塊會包含作者、版權、聯絡方式等資訊。
+	
+	https://www.fooish.com/html/footer-tag.html 資料來源
+	
+	C
+	如果<address> 元素位於<body> 元素內，則它表示文檔聯繫信息。
+
+	如果<address> 元素位於<article> 元素內，則它表示文章的聯繫信息。
+
+	<address> 元素中的文本通常呈現為斜體。大多數瀏覽器會在address 元素前後添加折行。
+	
+	https://dcdrkim.pixnet.net/blog/post/316194654-html-%3Caddress%3E-%E6%A8%99%E7%B1%A4
+	
+	
+	
+( A )9.	下列哪個元素預設的字體最大？
 	A. <h1> 	B. <h2>	  C. <p>	D. <pre>
 (  )10.下列哪個元素可以用來設定目前文件與其它資源之間的關聯？
 	A. <base>	B. <meta>	C. <head>	D. <link>

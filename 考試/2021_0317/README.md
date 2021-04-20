@@ -50,17 +50,25 @@ return i;
 ( B )1.	下列何者為HTML文件的根元素？
 	A. <meta>  B. <html>	C. <head>	D. <body>
 ( B )2.	下列哪個全域屬性可以用來設定元素的標題？
-		A. class	B. id	 C. style	D. title
-(  )3.	下列哪個事件屬性可以用來設定當瀏覽器載入網頁時所要執行的Script？
-		A. onload	B. onclick	C. onfocus	D. onblur
+	A. class	B. id	 C. style	D. title
+( A )3.	下列哪個事件屬性可以用來設定當瀏覽器載入網頁時所要執行的Script？
+	A. onload	B. onclick	C. onfocus	D. onblur
 ( D )4.	下列哪個元素可以放在 <head> 元素裡面？
-		A. <p>	B. <h1>	 C. <body>	D. <title>
-(  )5.	下列哪個元素可以用來設定HTML文件的內容類型 (content type)？
-		A. <html>	B. <p>	C. <meta>	D. <link>
-(  )6.	下列哪個元素可以用來設定HTML文件的聯絡資訊？
+	A. <p>	B. <h1>	 C. <body>	D. <title>
+( D )5.	下列哪個元素可以用來設定HTML文件的內容類型 (content type)？
+	A. <html>	B. <p>	C. <meta>	D. <link>
+	
+	https://developer.mozilla.org/zh-TW/docs/Web/Guide/HTML/Content_categories
+	
+( D )6.	下列哪個元素可以用來設定HTML文件的聯絡資訊？
 	A. <footer>  B. <title>	  C. <time>	D. <address>
-(  )7.	下列哪個HTML5新增的元素最適合用來標示獨立的內容，例如部落格的一篇文章？
+	
+( A )7.	下列哪個HTML5新增的元素最適合用來標示獨立的內容，例如部落格的一篇文章？
 	A. <article>	B. <section>	C. <aside>	D. <nav>
+	
+	<article> 標籤 (tag) 是用來描述這一區塊的內容本身是獨立且完整的 (self-contained, standalone section)，例如部落格中的一篇文章、一則留言，或像論壇中的一個回覆等。
+	https://www.fooish.com/html/article-tag.html
+	
 ( B )8.	下列哪個HTML5新增的元素最適合用來放置網頁的擁有者資訊、建議瀏覽器解析度、版權聲明、隱私權政策等內容？
 	A. <header>	B. <footer>	C. <aside>	D. <address>
 	
@@ -82,8 +90,11 @@ return i;
 	
 ( A )9.	下列哪個元素預設的字體最大？
 	A. <h1> 	B. <h2>	  C. <p>	D. <pre>
-(  )10.下列哪個元素可以用來設定目前文件與其它資源之間的關聯？
+( B )10.下列哪個元素可以用來設定目前文件與其它資源之間的關聯？
 	A. <base>	B. <meta>	C. <head>	D. <link>
+	
+	可用於指定關於檔案之額外中繼資料，如作者、出版日期、有效日期、頁面描述、關鍵字，或者透過其他header元素及
+	
 ```
 ```
 ( J )1. 標題5                               	A.<blockquote>

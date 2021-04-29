@@ -48,14 +48,23 @@ function Factorial(n)
 	if n == 1
 		return 1
 	return n * Factorial(n - 1)
+	
+	
+iterative
 
-迭代法
 
-function Factorial(n)
-	sum = 1
-	for i = 1 to n
-		sum = sum * i
-	return sum
+ublic class Method1 {
+	public static void main(String[] args) {
+		factorial(6);
+		factorial(9);
+	}
+
+	static void factorial(int x) {
+		int i = x, j = 1;
+		while(i > 0)
+			j *= i--;
+		System.out.println(x + "! = " + j);
+	}
 ```
 ```
 

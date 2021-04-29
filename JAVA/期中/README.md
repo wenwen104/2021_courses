@@ -50,4 +50,39 @@ function Factorial(n)
 		sum = sum * i
 	return sum
 ```
+```
+
+public class firbonacci
+{
+	static int fib(int n)
+	{
+	if (n <= 1)
+	   return n;
+	return fib(n-1) + fin(n-2);
+	}
+	
+	public static void main (string args[])
+	{
+	int n = 9;
+	system.out.println(fib(n));
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
 

@@ -43,12 +43,12 @@ void methed(string s ,int a)[] 成功引數型別相同順序不同
 
 ```
 遞迴
-
-function Factorial(n)
-	if n == 1
-		return 1
-	return n * Factorial(n - 1)
-	
+static void factorial(int x) {
+	if (x == 1)
+           return 1;
+	else		
+	  return (x*factorial(x-1));
+	}
 	
 iterative
 

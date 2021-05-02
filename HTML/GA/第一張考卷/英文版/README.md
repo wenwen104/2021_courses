@@ -254,6 +254,22 @@ appear
 
 ```
 ```
+31 (?question_id=31)) You want to measure the percentage of
+sessions during which the user clicks a "product details" button.
+Which of the following would you need to do in order to see this
+information?
+A) set up a "product details" button in the commerce JavaScript
+B) enable the button as a KPI and set up a dashboard
+C) track the button as a page view and look at the Events Overview
+D) track the button with an event and set up an event goal
+E) none of these options will work 
 
+32 (?question_id=32)) To calculate ROI correctly, Google Analytics
+needs Select all that apply.
+A) Operating Cost
+B) Interest Rate
+C) Margin
+D) Cost
+E) Revenue 
 
 ```
